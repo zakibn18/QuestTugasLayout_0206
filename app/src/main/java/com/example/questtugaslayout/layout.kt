@@ -105,6 +105,13 @@ fun TugasLayoutUI(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(20.dp))
+
+            MahasiswaCard(
+                backgroundColorRes = R.color.card_bg_gray,
+                namaRes = R.string.nama_1,
+                alamatRes = R.string.alamat_1,
+                namaFontFamily = FontFamily.Cursive
+            )
         }
     }
 }
