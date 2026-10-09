@@ -52,7 +52,13 @@ fun MahasiswaCard(
                     .weight(1f)
                     .padding(horizontal = 12.dp)
             ) {
-                
+                Text(
+                    text = stringResource(id = namaRes),
+                    color = colorResource(id = R.color.white),
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = namaFontFamily
+                )
             }
         }
     }
