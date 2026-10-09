@@ -59,6 +59,13 @@ fun MahasiswaCard(
                     fontWeight = FontWeight.Bold,
                     fontFamily = namaFontFamily
                 )
+                if (phoneRes != null) {
+                    Text(
+                        text = stringResource(id = phoneRes),
+                        color = colorResource(id = R.color.text_cyan),
+                        fontSize = 14.sp
+                    )
+                }
             }
         }
     }
