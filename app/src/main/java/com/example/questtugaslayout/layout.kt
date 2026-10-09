@@ -112,6 +112,13 @@ fun TugasLayoutUI(modifier: Modifier = Modifier) {
                 alamatRes = R.string.alamat_1,
                 namaFontFamily = FontFamily.Cursive
             )
+
+            MahasiswaCard(
+                backgroundColorRes = R.color.card_bg_purple,
+                namaRes = R.string.nama_2,
+                phoneRes = R.string.phone_2,
+                alamatRes = R.string.alamat_2
+            )
         }
     }
 }
