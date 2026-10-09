@@ -17,3 +17,14 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun MahasiswaCard(
+    @ColorRes backgroundColorRes: Int,
+    @StringRes namaRes: Int,
+    @StringRes alamatRes: Int,
+    @StringRes phoneRes: Int? = null,
+    namaFontFamily: FontFamily = FontFamily.Default
+) {
+    
+}
