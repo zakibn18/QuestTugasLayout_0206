@@ -98,6 +98,13 @@ fun TugasLayoutUI(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = colorResource(id = R.color.black)
             )
+            Text(
+                text = stringResource(id = R.string.univ),
+                fontSize = 18.sp,
+                color = colorResource(id = R.color.black)
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
         }
     }
 }
