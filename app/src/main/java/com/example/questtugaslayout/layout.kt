@@ -86,6 +86,18 @@ fun TugasLayoutUI(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
     ) {
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Spacer(modifier = Modifier.height(40.dp))
 
+            Text(
+                text = stringResource(id = R.string.prodi),
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(id = R.color.black)
+            )
+        }
     }
 }
