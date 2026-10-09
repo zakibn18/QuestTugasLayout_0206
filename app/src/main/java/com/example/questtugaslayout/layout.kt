@@ -80,3 +80,12 @@ fun MahasiswaCard(
         }
     }
 }
+
+@Composable
+fun TugasLayoutUI(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
+
+    }
+}
