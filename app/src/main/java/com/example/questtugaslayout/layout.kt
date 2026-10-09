@@ -66,7 +66,17 @@ fun MahasiswaCard(
                         fontSize = 14.sp
                     )
                 }
+                Text(
+                    text = stringResource(id = alamatRes),
+                    color = colorResource(id = R.color.text_yellow),
+                    fontSize = 14.sp
+                )
             }
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
         }
     }
 }
